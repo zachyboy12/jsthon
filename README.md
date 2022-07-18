@@ -1,2 +1,2 @@
 # jsthon
-A module for running python in node.
+A module for running python in node and vice versa.
