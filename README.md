@@ -1,9 +1,7 @@
 # jsthon
 A module for running python in node and vice versa.
 # Try it (Javascript)
-- First, execute this command below:  
-```git clone https://github.com/zachyboy12/jsthon.git```  
-- Next, write this code:  
+- First, write this code:  
 ```jsthon = require('path/to/jsthon')```  
 - Finally, write this code:  
 ```jsthon.run_py('print("Javascript + Python = JSthon")')```  
