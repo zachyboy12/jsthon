@@ -1,0 +1,29 @@
+jsthon- {
+    font-family: sans-serif;
+}
+
+button {
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #03b1fc;
+    color: white;
+    border-radius: 8px;
+    border-color: #03b1fc;
+    outline: #03b1fc;
+    cursor: pointer;
+}
+input {
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #03b1fc;
+    color: white;
+    border-radius: 8px;
+    border-color: #03b1fc;
+    outline: #03b1fc;
+}
+::placeholder {
+    color: white;
+    opacity: .6;
+}

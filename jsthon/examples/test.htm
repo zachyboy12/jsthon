@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../browser-version/modern-style.css">
+    <script src="../browser-version/index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examples/test.htm</title>
+</head>
+<body>
+    <jsthon->
+        <script>
+            function ifclicked1 () {
+                $$.remove_node('myId')
+            }
+            function ifclicked2 () {
+                node2 = $$.create_node('li', $$.get_value("myInput"))
+                node2.setAttribute('id', 'myId')
+                $$.insert_node(node2)
+            }
+            input('Type anything here...', 'text', 'myInput')
+            end()
+            button('Press this button to remove last list node', ifclicked1)
+            end()
+            button('Press this button to make another list node and make the text the text you entered', ifclicked2)
+        </script>
+    </jsthon->
+</body>
+</html>
